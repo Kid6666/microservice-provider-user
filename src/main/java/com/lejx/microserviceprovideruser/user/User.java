@@ -10,6 +10,9 @@ public class User {
     private Integer age;
     private BigDecimal balance;
 
+    public User() {
+    }
+
     public User(long id, String username, String name, Integer age, BigDecimal balance) {
         this.id = id;
         this.username = username;
